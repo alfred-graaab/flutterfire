@@ -9,8 +9,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.flutter.plugins.firebaseauth
-        pluginClass: FirebaseAuthPlugin
+        default_package: firebase_rest_auth
       ios:
         pluginClass: FLTFirebaseAuthPlugin
       macos:
@@ -28,6 +27,8 @@ dependencies:
   # TODO(amirh): Revisit this (either update this part in the  design or the pub tool).
   # https://github.com/flutter/flutter/issues/46264
   firebase_auth_web: ^0.2.0-dev.1
+  firebase_rest_auth:
+   git: git@github.com:simpleclub/firebase_rest_auth.git
 
   flutter:
     sdk: flutter
