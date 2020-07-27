@@ -17,7 +17,7 @@ flutter:
 
 dependencies:
   firebase_rest_auth:
-     path: ./package/firebase_rest_auth
+   git: git@github.com:alfred-graaab/firebase_rest_auth.git
   meta: ^1.0.4
   firebase_core: any
   firebase_auth_platform_interface: ^1.1.7
